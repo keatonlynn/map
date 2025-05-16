@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c11829e68f468325710979d8cc00265 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7c11829e68f468325710979d8cc00265" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7c11829e68f468325710979d8cc00265 = L.map(
+                "map_7c11829e68f468325710979d8cc00265",
+                {
+                    center: [32.7157, -117.1611],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1781d9efc3f31c290a14d18158f69d46 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            var poly_line_27daa99561693094530e2dde535a9692 = L.polyline(
+                [[32.5383, -117.1184], [32.6277, -117.1362]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            poly_line_27daa99561693094530e2dde535a9692.bindTooltip(
+                `<div>
+                     Run: Beach Run: Friendship Park to Grand Caribe Shoreline Park
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2c355f44a30adf00c1894de9700d239 = L.marker(
+                [32.5383, -117.1184],
+                {}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            var icon_19a0921b47a5ced9faf705b78b64aae0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_c2c355f44a30adf00c1894de9700d239.setIcon(icon_19a0921b47a5ced9faf705b78b64aae0);
+        
+    
+        var popup_698d4c447775696cdb8de840d35d4eac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4ac482b773d5070da53f86d0426939f = $(`<div id="html_f4ac482b773d5070da53f86d0426939f" style="width: 100.0%; height: 100.0%;">Run</div>`)[0];
+            popup_698d4c447775696cdb8de840d35d4eac.setContent(html_f4ac482b773d5070da53f86d0426939f);
+        
+
+        marker_c2c355f44a30adf00c1894de9700d239.bindPopup(popup_698d4c447775696cdb8de840d35d4eac)
+        ;
+
+        
+    
+    
+            var poly_line_e3017dcb28c394da99925cb083598e82 = L.polyline(
+                [[32.6277, -117.1362], [32.7057, -117.1647]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            poly_line_e3017dcb28c394da99925cb083598e82.bindTooltip(
+                `<div>
+                     Paddle: SUP: Grand Caribe to Embarcadero Marina Park South
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_196024d40d9a71f37ba85c9965c5fd1b = L.marker(
+                [32.6277, -117.1362],
+                {}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            var icon_207e4a6f2f1cdb0b8b96809c5862d9e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_196024d40d9a71f37ba85c9965c5fd1b.setIcon(icon_207e4a6f2f1cdb0b8b96809c5862d9e2);
+        
+    
+        var popup_07cf61f3f961a709a4d37c2a5e02ac51 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f82f055a0ed59196c77f64d4bba4fc6 = $(`<div id="html_4f82f055a0ed59196c77f64d4bba4fc6" style="width: 100.0%; height: 100.0%;">Paddle</div>`)[0];
+            popup_07cf61f3f961a709a4d37c2a5e02ac51.setContent(html_4f82f055a0ed59196c77f64d4bba4fc6);
+        
+
+        marker_196024d40d9a71f37ba85c9965c5fd1b.bindPopup(popup_07cf61f3f961a709a4d37c2a5e02ac51)
+        ;
+
+        
+    
+    
+            var poly_line_72bbdfe3bb09382bf9c335f366801f71 = L.polyline(
+                [[32.7057, -117.1647], [32.8504, -117.2721]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            poly_line_72bbdfe3bb09382bf9c335f366801f71.bindTooltip(
+                `<div>
+                     Run: Urban Run: Embarcadero to La Jolla Cove
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1e37d944cd302628f731103a763434eb = L.marker(
+                [32.7057, -117.1647],
+                {}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            var icon_e578527ba76ccfd4b71077c144f1399b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_1e37d944cd302628f731103a763434eb.setIcon(icon_e578527ba76ccfd4b71077c144f1399b);
+        
+    
+        var popup_3c91e1ff11d1ff4382314e4a5d2a3d00 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44801fdfb33904ba338ac375b92c9fb8 = $(`<div id="html_44801fdfb33904ba338ac375b92c9fb8" style="width: 100.0%; height: 100.0%;">Run</div>`)[0];
+            popup_3c91e1ff11d1ff4382314e4a5d2a3d00.setContent(html_44801fdfb33904ba338ac375b92c9fb8);
+        
+
+        marker_1e37d944cd302628f731103a763434eb.bindPopup(popup_3c91e1ff11d1ff4382314e4a5d2a3d00)
+        ;
+
+        
+    
+    
+            var poly_line_862e9c6a552bed8accf675f8f6f70bee = L.polyline(
+                [[32.8504, -117.2721], [32.8573, -117.2566]],
+                {"bubblingMouseEvents": true, "color": "aqua", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "aqua", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            poly_line_862e9c6a552bed8accf675f8f6f70bee.bindTooltip(
+                `<div>
+                     Swim (optional): La Jolla Cove to Shores
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee5d3f4e9f9dc92b501b152376b3b695 = L.marker(
+                [32.8504, -117.2721],
+                {}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            var icon_d546318b10c5618be76e84a3ef1bd4a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "aqua", "prefix": "glyphicon"}
+            );
+            marker_ee5d3f4e9f9dc92b501b152376b3b695.setIcon(icon_d546318b10c5618be76e84a3ef1bd4a9);
+        
+    
+        var popup_6c0d9b626bc0a04bd779a515e3ddf2ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_07152d551265beff6cf6717d06dd9572 = $(`<div id="html_07152d551265beff6cf6717d06dd9572" style="width: 100.0%; height: 100.0%;">Swim (optional)</div>`)[0];
+            popup_6c0d9b626bc0a04bd779a515e3ddf2ea.setContent(html_07152d551265beff6cf6717d06dd9572);
+        
+
+        marker_ee5d3f4e9f9dc92b501b152376b3b695.bindPopup(popup_6c0d9b626bc0a04bd779a515e3ddf2ea)
+        ;
+
+        
+    
+    
+            var poly_line_176238d29cd1fb967619876c90997601 = L.polyline(
+                [[32.8573, -117.2566], [33.056, -117.1066], [33.0201, -117.2788], [33.2026, -117.3853]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            poly_line_176238d29cd1fb967619876c90997601.bindTooltip(
+                `<div>
+                     Bike: Inland Trails: La Jolla Shores to Oceanside Harbor via Lake Hodges & RSF
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3135343c5885136b1c19978e54f24b1 = L.marker(
+                [32.8573, -117.2566],
+                {}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            var icon_50a1c3c493ef001617acfb5a4181742f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c3135343c5885136b1c19978e54f24b1.setIcon(icon_50a1c3c493ef001617acfb5a4181742f);
+        
+    
+        var popup_c15d928cf51fd3f45764cce143b3395f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f8abf982c7b12c774ce9334a8b93e1f = $(`<div id="html_5f8abf982c7b12c774ce9334a8b93e1f" style="width: 100.0%; height: 100.0%;">Bike</div>`)[0];
+            popup_c15d928cf51fd3f45764cce143b3395f.setContent(html_5f8abf982c7b12c774ce9334a8b93e1f);
+        
+
+        marker_c3135343c5885136b1c19978e54f24b1.bindPopup(popup_c15d928cf51fd3f45764cce143b3395f)
+        ;
+
+        
+    
+    
+            var poly_line_4d4a4686c0f0e88fcb0a266985a084d4 = L.polyline(
+                [[33.2026, -117.3853], [33.4633, -117.6981]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 5}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            poly_line_4d4a4686c0f0e88fcb0a266985a084d4.bindTooltip(
+                `<div>
+                     Paddle: Outrigger: Oceanside Harbor to Dana Point Harbor
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ef3954690091bb9f8451f95c916d83f = L.marker(
+                [33.2026, -117.3853],
+                {}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            var icon_e84504fdb17d75f8312506efa335caa9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_2ef3954690091bb9f8451f95c916d83f.setIcon(icon_e84504fdb17d75f8312506efa335caa9);
+        
+    
+        var popup_5c3a0c973a0b3341bf79e8f3848e7a0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed7e2a1dc4a85632cecff8a8494282aa = $(`<div id="html_ed7e2a1dc4a85632cecff8a8494282aa" style="width: 100.0%; height: 100.0%;">Paddle</div>`)[0];
+            popup_5c3a0c973a0b3341bf79e8f3848e7a0f.setContent(html_ed7e2a1dc4a85632cecff8a8494282aa);
+        
+
+        marker_2ef3954690091bb9f8451f95c916d83f.bindPopup(popup_5c3a0c973a0b3341bf79e8f3848e7a0f)
+        ;
+
+        
+    
+    
+            var marker_98949276a4ed3aeec1d81a1fcf02c274 = L.marker(
+                [33.4633, -117.6981],
+                {}
+            ).addTo(map_7c11829e68f468325710979d8cc00265);
+        
+    
+            var icon_cc1e6d48a1df356cc2717bd629344d56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "flag", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_98949276a4ed3aeec1d81a1fcf02c274.setIcon(icon_cc1e6d48a1df356cc2717bd629344d56);
+        
+    
+        var popup_e1a50ca64adac79828b0e7acdcdb9849 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cd548b10453139d2b5a5fcf9bc97c647 = $(`<div id="html_cd548b10453139d2b5a5fcf9bc97c647" style="width: 100.0%; height: 100.0%;">Finish: Dana Point Harbor</div>`)[0];
+            popup_e1a50ca64adac79828b0e7acdcdb9849.setContent(html_cd548b10453139d2b5a5fcf9bc97c647);
+        
+
+        marker_98949276a4ed3aeec1d81a1fcf02c274.bindPopup(popup_e1a50ca64adac79828b0e7acdcdb9849)
+        ;
+
+        
+    
+</script>
+</html>
